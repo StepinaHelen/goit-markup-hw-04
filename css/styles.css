@@ -108,7 +108,6 @@ header {
 .site-nav .link {
   display: block;
   padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--title-text-color);
 
@@ -126,6 +125,16 @@ header {
   color: var(--accent-color);
 }
 
+.item .current::after {
+  display: flex;
+  width: 47px;
+  height: 4px;
+  content: ' ';
+  background-color: var(--accent-color);
+  margin-top: 28px;
+  margin-right: auto;
+  margin-left: auto;
+}
 /* address  */
 .address {
   display: flex;
