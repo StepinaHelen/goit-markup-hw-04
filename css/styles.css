@@ -543,13 +543,20 @@ b {
   display: flex;
   flex-wrap: wrap;
 }
-.project-work li:hover {
+.effect-item {
+  display: block;
+  padding-top: 20px;
+}
+.project-work .effect-item:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
-.project-work li {
+
+.project-work .effect-item {
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .project-work .item {
@@ -565,9 +572,7 @@ b {
 .project-work .item:nth-child(3n) {
   margin-right: 0px;
 }
-.image-project {
-  margin-bottom: 20px;
-}
+
 .projects-name {
   font-weight: bold;
   font-size: 18px;
