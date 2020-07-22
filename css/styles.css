@@ -57,7 +57,13 @@ color: #2196F3; Web Studio
 header {
   background: #ffffff;
 }
-
+.header-page::after {
+  display: block;
+  content: ' ';
+  border: 1px solid #ececec;
+  padding: 0px;
+  bottom: 0px;
+}
 /* logo */
 
 .logo {
@@ -134,6 +140,7 @@ header {
   margin-top: 28px;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 2px;
 }
 .item .current-portfolio::after {
   width: 77px;
