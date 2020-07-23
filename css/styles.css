@@ -166,8 +166,8 @@ header {
   align-items: center;
   padding: 0px;
 }
-.email-svg:hover,
-.email-svg:focus {
+a:hover .email-svg,
+a:focus .email-svg {
   fill: var(--accent-color);
 }
 
@@ -179,8 +179,8 @@ header {
   margin-right: 10px;
   align-items: center;
 }
-.phone-svg:hover,
-.phone-svg:focus {
+a:hover .phone-svg,
+a:focus .phone-svg {
   fill: var(--accent-color);
 }
 
@@ -261,7 +261,7 @@ header {
   fill: #afb1b8;
 }
 
-.clients-svg :hover {
+a:hover .clients-svg {
   fill: var(--accent-color);
 }
 
@@ -461,10 +461,10 @@ header {
   display: block;
   fill: #afb1b8;
 }
-.team-svg:hover {
+a:hover .team-svg {
   fill: #ffffff;
 }
-.team-item li {
+.team-item li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -473,8 +473,8 @@ header {
   border-radius: 50%;
   cursor: pointer;
 }
-.team-item li:hover,
-.team-item li:focus {
+.team-item li a:hover,
+.team-item li a:focus {
   background-color: var(--accent-color);
 }
 
